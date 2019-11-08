@@ -66,7 +66,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \namesection{Shawn}{Au}{ % \urlstyle{same}\href{http://shawn0.com}{shawn0.com}\\
-\href{mailto:shawn.hui.au@gmail.com}{shawn.hui.au@gmail.com} | 780.905.3448
+\href{mailto:shawn.hui.au@gmail.com}{shawn.hui.au@gmail.com} %| phone number
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -170,7 +170,7 @@ Bouldering \\
 \begin{tightemize}
 \item Watch Habitat was a streaming service with an ecommerce platform
 \item Developed a frontend application in Gatsby that was deployed using Netlify
-\item Built and deployed a serverless GraphQL API as a netlify lambda function
+\item Built and deployed a serverless GraphQL API as a Netlify Lambda function
 \item Set up OAuth and SSO by integrating FusionAuth
 \item Configured and deployed a PostgreSQL database on AWS and set up database access and schema migration using Prisma
 \item Gated user access by allowing only subscribed users to view videos from VHX, our video platform
