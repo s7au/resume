@@ -159,7 +159,7 @@ Bouldering \\
 \section{Experience}
 
 \runsubsection{Watch Habitat}
-\descript{| Software Developer }
+\descript{(ceased operations Nov 2019) \\ Software Developer }
 \location{Aug 2019 – Nov 2019 | Toronto, ON}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \runsubsection{}
@@ -169,18 +169,17 @@ Bouldering \\
 \vspace{\topsep}
 \begin{tightemize}
 \item Watch Habitat was a streaming service with an ecommerce platform
-\item Developed a frontend application in Gatsby that was deployed using Netlify
+\item Developed a Gatsby application that was deployed using Netlify
 \item Built and deployed a serverless GraphQL API as a Netlify Lambda function
 \item Set up OAuth and SSO by integrating FusionAuth
-\item Configured and deployed a PostgreSQL database on AWS and set up database access and schema migration using Prisma
-\item Gated user access by allowing only subscribed users to view videos from VHX, our video platform
+\item Configured and deployed a PostgreSQL database on AWS and set up database access and schema migration using Prisma2
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Blockchain Markets (now Bitbuy)}
-\descript{| Software Developer }
+\runsubsection{Blockchain Markets}
+\descript{(acquired by Bitbuy Dec 2018) \\ Software Developer }
 \location{Dec 2017 – Aug 2019 | Toronto, ON}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
+%\vspace{\topsep} % Hacky fix for awkward extra vertical space
 \runsubsection{}
 % \textit{
 % Tools: Java, Javascript, PostgreSQL, Solace, Spring, Liquibase, Hibernate, Protobuf, Google Cloud, Kubernetes, Cloud Pub/Sub, Angular, STOMP, Maven, Docker, Git, Jenkins
@@ -190,10 +189,11 @@ Bouldering \\
 \item Built software with a microservices architecture running on Google Kubernetes Engine with Solace messaging
 \item Created market states to mimic stock exchanges. This includes rejecting new orders during a closed state, allowing orders but no matches during a preopen state, and matching existing orders when transitioning to an open state using a maximal matching algorithm
 \item Implemented failover mechanism in microservices that are reliant on a Solace replay queue instead of the database to recover
+\item Built cold start mechanism in microservices to allow recovery of system from database if even Solace shut down
 \item Developed authentication generation system for crypto wallets to account for regularly expiring credentials
 \item Responsible for most database-related tasks such as structural changes, performance improvements, and migration scripts. Used Liquibase changesets to affect a PostgreSQl database.
-\item Setup a Squid proxy service to access external resources through a whitelisted IP. Later changed this to use a NAT gateway setup using Terraform
-\item Set up and configed Java microservices so that they can be deployed to Google Cloud using a Jenkins pipeline
+\item Set up a Squid proxy service to access external resources through a whitelisted IP. Later opted to use a NAT gateway setup using Terraform
+\item Set up and configured Java microservices so that they can be deployed to Google Cloud using a Jenkins pipeline
 \item Incorporated STOMP websockets into the application
 \item To prevent DDoS attacks, implemented reCAPTCHA requirement upon multiple failed logins
 \end{tightemize}
