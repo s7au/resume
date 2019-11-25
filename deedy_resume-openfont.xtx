@@ -186,7 +186,7 @@ Bouldering \\
 % }
 \vspace{\topsep}
 \begin{tightemize}
-\item Built software with a microservices architecture running on Google Kubernetes Engine with Solace messaging
+\item Built software with a microservices architecture running on Google Kubernetes Engine with Solace messaging. Most microservices were built with Spring and Hibernate frameworks
 \item Created market states to mimic stock exchanges. This includes rejecting new orders during a closed state, allowing orders but no matches during a preopen state, and matching existing orders when transitioning to an open state using a maximal matching algorithm
 \item Implemented failover mechanism in microservices that are reliant on a Solace replay queue instead of the database to recover
 \item Built cold start mechanism in microservices to allow recovery of system from database if even Solace shut down
