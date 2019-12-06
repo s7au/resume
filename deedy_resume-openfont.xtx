@@ -66,7 +66,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \namesection{Shawn}{Au}{ % \urlstyle{same}\href{http://shawn0.com}{shawn0.com}\\
-\href{mailto:shawn.hui.au@gmail.com}{shawn.hui.au@gmail.com} %| phone number
+\href{mailto:shawn.hui.au@gmail.com}{shawn.hui.au@gmail.com}{ | }\href{https://github.com/s7au}{\bf https://github.com/s7au}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -96,37 +96,39 @@
 %     LINKS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Links} 
-Github: \href{https://github.com/s7au}{\bf https://github.com/s7au}
-\sectionsep
+%\section{Links} 
+%Github: \href{https://github.com/s7au}{\bf https://github.com/s7au}
+%\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     COURSEWORK
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Coursework}
-Algorithms \\
-User Interfaces \\
-Operating Systems \\
-Numerical Computation of Financial Modeling \\
-Applied Cryptography \\
-Distributed Systems \\
-Intro to Artificial Intelligence \\
-Intro to Computer Graphics \\
-Big Data Infrastructure \\
-\sectionsep
+%\section{Coursework}
+%Algorithms \\
+%User Interfaces \\
+%Operating Systems \\
+%Numerical Computation of Financial Modeling \\
+%Applied Cryptography \\
+%Distributed Systems \\
+%Intro to Artificial Intelligence \\
+%Intro to Computer Graphics \\
+%Big Data Infrastructure \\
+%\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     SKILLS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% \section{Skills}
-% \subsection{Programming}
-% \location{Proficient}
-% C++ \textbullet{} Matlab \textbullet{} PHP \\
-% \location{Familiar:}
-% C \textbullet{} CSS \textbullet{} Java \textbullet{} Javascript \textbullet{} \LaTeX\ \textbullet{} MySQL \textbullet{} Python \textbullet{} Scala
-% \sectionsep
+\section{Skills}
+\subsection{Programming}
+\location{Proficient}
+Java \\
+\location{Familiar:}
+C++ \textbullet{} CSS \textbullet{} JavaScript \textbullet{} \LaTeX\ \textbullet{} MySQL \textbullet{} PHP \textbullet{} Python \textbullet{} TypeScript \\
+\location{Exposure to:}
+C \textbullet{} Clojure \textbullet{} Matlab \textbullet{} Racket \textbullet{} Scala
+\sectionsep
 
 \section{Projects}
 Wrote a ray tracer with the ability to render images with soft shadows, antialiasing, reflection, refraction, and depth of field \\
@@ -163,39 +165,41 @@ Bouldering \\
 \location{Aug 2019 – Nov 2019 | Toronto, ON}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \runsubsection{}
-% \textit{
-% Tools: Typescript, Javascript, PostgreSQL, Prisma, Apollo GraphQL, AWS, Netlify, FusionAuth, Git
-% }
+\textit{
+Tools: Typescript, Javascript, PostgreSQL, Prisma, Apollo GraphQL, AWS, Netlify, FusionAuth, Git
+}
+\vspace{\topsep}
 \vspace{\topsep}
 \begin{tightemize}
 \item Watch Habitat was a streaming service with an ecommerce platform
-\item Developed a Gatsby application that was deployed using Netlify
-\item Built and deployed a serverless GraphQL API as a Netlify Lambda function
-\item Set up OAuth and SSO by integrating FusionAuth
-\item Configured and deployed a PostgreSQL database on AWS and set up database access and schema migration using Prisma2
+\item Built and deployed a serverless backend with a GraphQL API
+\item Built full functionality mockup for entire site
+\item Set up primary sign-in mechanism for entire website
+\item Configured and deployed the database on AWS and set up database access and schema migration
 \end{tightemize}
 \sectionsep
 
 \runsubsection{Blockchain Markets}
 \descript{(acquired by Bitbuy Dec 2018) \\ Software Developer }
 \location{Dec 2017 – Aug 2019 | Toronto, ON}
-%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
 \runsubsection{}
-% \textit{
-% Tools: Java, Javascript, PostgreSQL, Solace, Spring, Liquibase, Hibernate, Protobuf, Google Cloud, Kubernetes, Cloud Pub/Sub, Angular, STOMP, Maven, Docker, Git, Jenkins
-% }
+\textit{
+Tools: Java, Javascript, PostgreSQL, Solace, Spring, Liquibase, Hibernate, Protobuf, Google Cloud, Kubernetes, Cloud Pub/Sub, Angular, STOMP, Maven, Docker, Git, Jenkins
+}
 \vspace{\topsep}
 \begin{tightemize}
-\item Built software with a microservices architecture running on Google Kubernetes Engine with Solace messaging. Most microservices were built with Spring and Hibernate frameworks
-\item Created market states to mimic stock exchanges. This includes rejecting new orders during a closed state, allowing orders but no matches during a preopen state, and matching existing orders when transitioning to an open state using a maximal matching algorithm
-\item Implemented failover mechanism in microservices that are reliant on a Solace replay queue instead of the database to recover
-\item Built cold start mechanism in microservices to allow recovery of system from database if even Solace shut down
+\item Built software with a microservices architecture running on Google Kubernetes Engine with Solace messaging
+\item Implemented failover mechanism in all microservices in the case of system failure %that are reliant on a Solace replay queue instead of the database to recover
+% \item Built cold start mechanism in microservices to allow recovery of system from database if even Solace shut down
+\item Investigated best security practices and implemented authentication and authorization for the entire application
 \item Developed authentication generation system for crypto wallets to account for regularly expiring credentials
-\item Responsible for most database-related tasks such as structural changes, performance improvements, and migration scripts. Used Liquibase changesets to affect a PostgreSQl database.
-\item Set up a Squid proxy service to access external resources through a whitelisted IP. Later opted to use a NAT gateway setup using Terraform
-\item Set up and configured Java microservices so that they can be deployed to Google Cloud using a Jenkins pipeline
-\item Incorporated STOMP websockets into the application
-\item To prevent DDoS attacks, implemented reCAPTCHA requirement upon multiple failed logins
+\item Set up, configured, and deployed microservices to Google Cloud
+\item Responsible for most database-related tasks such as structural changes, performance improvements, and migration scripts
+\item Created market states to mimic stock exchanges. This includes rejecting new orders during a closed state, allowing orders but no matches during a preopen state, and matching existing orders when transitioning to an open state using a maximal matching algorithm
+% \item Set up a Squid proxy service to access external resources through a whitelisted IP. Later opted to use a NAT gateway setup using Terraform
+% \item Incorporated STOMP websockets into the application
+\item Investigated DDos attack traffic and implemented reCAPTCHA requirement to address it
 \end{tightemize}
 \sectionsep
 
@@ -204,15 +208,15 @@ Bouldering \\
 \location{Sep 2016 – Dec 2016 | Toronto, ON}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \runsubsection{}
-% \textit{
-% Tools: PHP, Javascript, MySQL, Backbone.js, Handlebars.js, jQuery, React, Docker, Git, Jenkins
-% } 
-\begin{tightemize}
+\textit{
+Tools: PHP, Javascript, MySQL, Backbone.js, Handlebars.js, jQuery, React, Docker, Git, Jenkins
+} 
+%\begin{tightemize}
 % \item Was part of the feature team with responsibilities including: developing new features, fixing bugs, and presenting changes during the sprint review
 % \item Followed agile methodology and used tools like GitHub, Jenkins, and JIRA
 % \item Developed units tests and refactored code base to improve maintainability and performance of application
-\item Wrote backend features with PHP and MySQL, with corresponding frontend changes using Backbone.js, Handlebars.js, jQuery, and React
-\end{tightemize}
+%\item Wrote backend features with PHP and MySQL, with corresponding frontend changes using Backbone.js, Handlebars.js, jQuery, and React
+%\end{tightemize}
 % \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
