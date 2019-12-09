@@ -193,9 +193,10 @@ Tools: Java, Javascript, PostgreSQL, Solace, Spring, Liquibase, Hibernate, Proto
 \item Implemented failover mechanism in all microservices in the case of system failure %that are reliant on a Solace replay queue instead of the database to recover
 % \item Built cold start mechanism in microservices to allow recovery of system from database if even Solace shut down
 \item Investigated best security practices and implemented authentication and authorization for the entire application
+\item Created and maintained REST API endpoints that handle hundreds of request per second
 \item Developed authentication generation system for crypto wallets to account for regularly expiring credentials
-\item Set up, configured, and deployed microservices to Google Cloud
 \item Responsible for most database-related tasks such as structural changes, performance improvements, and migration scripts
+\item Set up, configured, and deployed microservices to Google Cloud
 \item Created market states to mimic stock exchanges. This includes rejecting new orders during a closed state, allowing orders but no matches during a preopen state, and matching existing orders when transitioning to an open state using a maximal matching algorithm
 % \item Set up a Squid proxy service to access external resources through a whitelisted IP. Later opted to use a NAT gateway setup using Terraform
 % \item Incorporated STOMP websockets into the application
