@@ -200,7 +200,7 @@ Tools: Java, Javascript, PostgreSQL, Solace, Spring, Liquibase, Hibernate, Proto
 \item Created market states to mimic stock exchanges. This includes rejecting new orders during a closed state, allowing orders but no matches during a preopen state, and matching existing orders when transitioning to an open state using a maximal matching algorithm
 % \item Set up a Squid proxy service to access external resources through a whitelisted IP. Later opted to use a NAT gateway setup using Terraform
 % \item Incorporated STOMP websockets into the application
-\item Investigated DDos attack traffic and implemented reCAPTCHA requirement to address it
+% \item Investigated DDos attack traffic and implemented reCAPTCHA requirement to address it
 \end{tightemize}
 \sectionsep
 
