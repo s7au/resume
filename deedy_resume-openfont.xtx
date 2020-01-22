@@ -87,10 +87,10 @@
 \descript{Honours Bachelor of Computer Science}
 \location{Aug 2017 | Waterloo, ON}
 \sectionsep
-\subsection{University of Alberta}
-\descript{Bachelor of Commerce}
-\location{Jun 2013 | Edmonton, AB}
-\sectionsep
+%\subsection{University of Alberta}
+%\descript{Bachelor of Commerce}
+%\location{Jun 2013 | Edmonton, AB}
+%\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     LINKS
@@ -161,12 +161,13 @@ Bouldering \\
 \section{Experience}
 
 \runsubsection{Watch Habitat}
-\descript{(ceased operations Nov 2019) \\ Software Developer }
+%(ceased operations Nov 2019)
+\descript{\\ Software Developer }
 \location{Aug 2019 – Nov 2019 | Toronto, ON}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \runsubsection{}
 \textit{
-Tools: Typescript, Javascript, PostgreSQL, Prisma, Apollo GraphQL, AWS, Netlify, FusionAuth, Git
+Tools: Typescript, Javascript, PostgreSQL, Gatsby, Prisma, Apollo GraphQL, AWS, Netlify, FusionAuth, Git
 }
 \vspace{\topsep}
 \vspace{\topsep}
