@@ -71,88 +71,13 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-%     COLUMN ONE
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{minipage}[t]{0.33\textwidth} 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     EDUCATION
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Education} 
-
-\subsection{University of Waterloo}
-\descript{Honours Bachelor of Computer Science}
-\location{Aug 2017 | Waterloo, ON}
-\sectionsep
-%\subsection{University of Alberta}
-%\descript{Bachelor of Commerce}
-%\location{Jun 2013 | Edmonton, AB}
-%\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     LINKS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%\section{Links} 
-%Github: \href{https://github.com/s7au}{\bf https://github.com/s7au}
-%\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     COURSEWORK
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%\section{Coursework}
-%Algorithms \\
-%User Interfaces \\
-%Operating Systems \\
-%Numerical Computation of Financial Modeling \\
-%Applied Cryptography \\
-%Distributed Systems \\
-%Intro to Artificial Intelligence \\
-%Intro to Computer Graphics \\
-%Big Data Infrastructure \\
-%\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     SKILLS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Skills}
-\subsection{Programming}
-\location{Proficient}
-Java \\
-\location{Familiar:}
-C++ \textbullet{} CSS \textbullet{} JavaScript \textbullet{} \LaTeX\ \textbullet{} MySQL \textbullet{} PHP \textbullet{} Python \textbullet{} TypeScript \\
-\location{Exposure to:}
-C \textbullet{} Clojure \textbullet{} Matlab \textbullet{} Racket \textbullet{} Scala
-\sectionsep
-
-\section{Projects}
-Wrote a ray tracer with the ability to render images with soft shadows, antialiasing, reflection, refraction, and depth of field \\
-\vspace{\topsep}
-Developed a chess program with human and cpu player capabilities using C++ \\
-\vspace{\topsep}
-Created a web interface that fills out PDF forms using PHP and the FPDI library
-\sectionsep
-
-\section{Interests}
-Badminton \\
-Volunteering \\
-Bouldering \\
-\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
 %     COLUMN TWO
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\end{minipage} 
-\hfill
-\begin{minipage}[t]{0.66\textwidth} 
+%\end{minipage} 
+%\hfill
+%\begin{minipage}[t]{0.66\textwidth} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
@@ -169,7 +94,6 @@ Bouldering \\
 \textit{
 Tools: Typescript, Javascript, PostgreSQL, Gatsby, Prisma, Apollo GraphQL, AWS, Netlify, FusionAuth, Git
 }
-\vspace{\topsep}
 \vspace{\topsep}
 \begin{tightemize}
 \item Watch Habitat was a streaming service with an ecommerce platform
@@ -219,7 +143,7 @@ Tools: PHP, Javascript, MySQL, Backbone.js, Handlebars.js, jQuery, React, Docker
 % \item Developed units tests and refactored code base to improve maintainability and performance of application
 %\item Wrote backend features with PHP and MySQL, with corresponding frontend changes using Backbone.js, Handlebars.js, jQuery, and React
 %\end{tightemize}
-% \sectionsep
+\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     RESEARCH
@@ -261,5 +185,82 @@ Tools: PHP, Javascript, MySQL, Backbone.js, Handlebars.js, jQuery, React, Docker
 % \end{tabular}
 % \sectionsep
 
-\end{minipage} 
+%\end{minipage} 
+% \end{document}  \documentclass[]{article}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \begin{minipage}[t]{0.49\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+% \subsection{University of Waterloo}
+\runsubsection{University of Waterloo} \\
+\descript{Honours Bachelor of Computer Science}
+\location{Aug 2017 | Waterloo, ON}
+\sectionsep
+%\subsection{University of Alberta}
+%\descript{Bachelor of Commerce}
+%\location{Jun 2013 | Edmonton, AB}
+%\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\section{Links} 
+%Github: \href{https://github.com/s7au}{\bf https://github.com/s7au}
+%\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\section{Coursework}
+%Algorithms \\
+%User Interfaces \\
+%Operating Systems \\
+%Numerical Computation of Financial Modeling \\
+%Applied Cryptography \\
+%Distributed Systems \\
+%Intro to Artificial Intelligence \\
+%Intro to Computer Graphics \\
+%Big Data Infrastructure \\
+%\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Skills}
+\subsection{Programming}
+Proficient: Java \\
+Familiar: C++ \textbullet{} CSS \textbullet{} JavaScript \textbullet{} \LaTeX\ \textbullet{} MySQL \textbullet{} PHP \textbullet{} Python \textbullet{} TypeScript \\
+Exposure to: C \textbullet{} Clojure \textbullet{} Matlab \textbullet{} Racket \textbullet{} Scala
+\end{document}  \documentclass[]{article}
+\sectionsep
+
+\section{Projects}
+Wrote a ray tracer with the ability to render images with soft shadows, antialiasing, reflection, refraction, and depth of field \\
+\vspace{\topsep}
+Developed a chess program with human and cpu player capabilities using C++ \\
+\vspace{\topsep}
+Created a web interface that fills out PDF forms using PHP and the FPDI library
+\sectionsep
+
+\section{Interests}
+Badminton \\
+Volunteering \\
+Bouldering \\
+\sectionsep
+
+% \end{minipage} 
 \end{document}  \documentclass[]{article}
