@@ -105,7 +105,7 @@ Tools: Typescript, Javascript, PostgreSQL, Gatsby, Prisma, Apollo GraphQL, AWS, 
 \sectionsep
 
 \runsubsection{Blockchain Markets}
-\descript{(acquired by Bitbuy Dec 2018) \\ Software Developer }
+\descript{\\ Software Developer }
 \location{Dec 2017 – Aug 2019 | Toronto, ON}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \runsubsection{}
@@ -119,7 +119,7 @@ Tools: Java, Javascript, PostgreSQL, Solace, Spring, Liquibase, Hibernate, Proto
 % \item Built cold start mechanism in microservices to allow recovery of system from database if even Solace shut down
 \item Investigated best security practices and implemented authentication and authorization for the entire application
 \item Created and maintained REST API endpoints that handle hundreds of request per second
-\item Developed authentication generation system for crypto wallets to account for regularly expiring credentials
+% \item Developed authentication generation system for crypto wallets to account for regularly expiring credentials
 \item Responsible for most database-related tasks such as structural changes, performance improvements, and migration scripts
 \item Set up, configured, and deployed microservices to Google Cloud
 \item Created market states to mimic stock exchanges. This includes rejecting new orders during a closed state, allowing orders but no matches during a preopen state, and matching existing orders when transitioning to an open state using a maximal matching algorithm
@@ -130,7 +130,7 @@ Tools: Java, Javascript, PostgreSQL, Solace, Spring, Liquibase, Hibernate, Proto
 \sectionsep
 
 \runsubsection{Achievers}
-\descript{| Intern Software Developer }
+\descript{\\ Intern Software Developer }
 \location{Sep 2016 – Dec 2016 | Toronto, ON}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \runsubsection{}
