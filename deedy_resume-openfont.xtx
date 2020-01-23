@@ -80,6 +80,22 @@
 %\begin{minipage}[t]{0.66\textwidth} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+% \subsection{University of Waterloo}
+\runsubsection{University of Waterloo}
+\descript{\\ Honours Bachelor of Computer Science}
+\location{Aug 2017 | Waterloo, ON}
+\sectionsep
+%\subsection{University of Alberta}
+%\descript{Bachelor of Commerce}
+%\location{Jun 2013 | Edmonton, AB}
+%\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -92,11 +108,10 @@
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \runsubsection{}
 \textit{
-Tools: Typescript, Javascript, PostgreSQL, Gatsby, Prisma, Apollo GraphQL, AWS, Netlify, FusionAuth, Git
+Tools used: Typescript, Javascript, PostgreSQL, Gatsby, Prisma, Apollo GraphQL, AWS, Netlify, FusionAuth, Git
 }
 \vspace{\topsep}
 \begin{tightemize}
-\item Watch Habitat was a streaming service with an ecommerce platform
 \item Built and deployed a serverless backend with a GraphQL API
 \item Built full functionality mockup for entire site
 \item Set up primary sign-in mechanism for entire website
@@ -110,19 +125,19 @@ Tools: Typescript, Javascript, PostgreSQL, Gatsby, Prisma, Apollo GraphQL, AWS, 
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \runsubsection{}
 \textit{
-Tools: Java, Javascript, PostgreSQL, Solace, Spring, Liquibase, Hibernate, Protobuf, Google Cloud, Kubernetes, Cloud Pub/Sub, Angular, STOMP, Maven, Docker, Git, Jenkins
+Tools used: Java, Javascript, PostgreSQL, Solace, Spring, Liquibase, Hibernate, Protobuf, Google Cloud, Kubernetes, Cloud Pub/Sub, Angular, STOMP, Maven, Docker, Git, Jenkins
 }
 \vspace{\topsep}
 \begin{tightemize}
-\item Built software with a microservices architecture running on Google Kubernetes Engine with Solace messaging
-\item Implemented failover mechanism in all microservices in the case of system failure %that are reliant on a Solace replay queue instead of the database to recover
+% \item Built software with a microservices architecture running on Google Kubernetes Engine with Solace messaging
+\item Implemented failover mechanism in all microservices using Solace queues %in the case of system failure that are reliant on a Solace replay queue instead of the database to recover
 % \item Built cold start mechanism in microservices to allow recovery of system from database if even Solace shut down
-\item Investigated best security practices and implemented authentication and authorization for the entire application
+\item Investigated best security practices and implemented authentication and authorization for partner API users
 \item Created and maintained REST API endpoints that handle hundreds of request per second
 % \item Developed authentication generation system for crypto wallets to account for regularly expiring credentials
 \item Responsible for most database-related tasks such as structural changes, performance improvements, and migration scripts
-\item Set up, configured, and deployed microservices to Google Cloud
-\item Created market states to mimic stock exchanges. This includes rejecting new orders during a closed state, allowing orders but no matches during a preopen state, and matching existing orders when transitioning to an open state using a maximal matching algorithm
+\item Set up, configured, and deployed microservices to Google Cloud Platform
+% \item Created market states to mimic stock exchanges. This includes rejecting new orders during a closed state, allowing orders but no matches during a preopen state, and matching existing orders when transitioning to an open state using a maximal matching algorithm
 % \item Set up a Squid proxy service to access external resources through a whitelisted IP. Later opted to use a NAT gateway setup using Terraform
 % \item Incorporated STOMP websockets into the application
 % \item Investigated DDos attack traffic and implemented reCAPTCHA requirement to address it
@@ -135,7 +150,7 @@ Tools: Java, Javascript, PostgreSQL, Solace, Spring, Liquibase, Hibernate, Proto
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \runsubsection{}
 \textit{
-Tools: PHP, Javascript, MySQL, Backbone.js, Handlebars.js, jQuery, React, Docker, Git, Jenkins
+Tools used: PHP, Javascript, MySQL, Backbone.js, Handlebars.js, jQuery, React, Docker, Git, Jenkins
 } 
 %\begin{tightemize}
 % \item Was part of the feature team with responsibilities including: developing new features, fixing bugs, and presenting changes during the sprint review
@@ -197,21 +212,7 @@ Tools: PHP, Javascript, MySQL, Backbone.js, Handlebars.js, jQuery, React, Docker
 
 % \begin{minipage}[t]{0.49\textwidth} 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     EDUCATION
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Education} 
-
-% \subsection{University of Waterloo}
-\runsubsection{University of Waterloo} \\
-\descript{Honours Bachelor of Computer Science}
-\location{Aug 2017 | Waterloo, ON}
-\sectionsep
-%\subsection{University of Alberta}
-%\descript{Bachelor of Commerce}
-%\location{Jun 2013 | Edmonton, AB}
-%\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     LINKS
@@ -245,6 +246,14 @@ Tools: PHP, Javascript, MySQL, Backbone.js, Handlebars.js, jQuery, React, Docker
 Proficient: Java \\
 Familiar: C++ \textbullet{} CSS \textbullet{} JavaScript \textbullet{} \LaTeX\ \textbullet{} MySQL \textbullet{} PHP \textbullet{} Python \textbullet{} TypeScript \\
 Exposure to: C \textbullet{} Clojure \textbullet{} Matlab \textbullet{} Racket \textbullet{} Scala
+\sectionsep
+
+\section{Interests}
+Badminton \\
+Volunteering \\
+Bouldering \\
+\sectionsep
+References available upon request.
 \end{document}  \documentclass[]{article}
 \sectionsep
 
@@ -254,12 +263,6 @@ Wrote a ray tracer with the ability to render images with soft shadows, antialia
 Developed a chess program with human and cpu player capabilities using C++ \\
 \vspace{\topsep}
 Created a web interface that fills out PDF forms using PHP and the FPDI library
-\sectionsep
-
-\section{Interests}
-Badminton \\
-Volunteering \\
-Bouldering \\
 \sectionsep
 
 % \end{minipage} 
