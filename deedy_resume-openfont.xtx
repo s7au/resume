@@ -113,9 +113,9 @@ Tools used: Typescript, Javascript, PostgreSQL, Gatsby, Prisma, Apollo GraphQL, 
 \vspace{\topsep}
 \begin{tightemize}
 \item Built and deployed a serverless backend with a GraphQL API
-\item Built full functionality mockup for entire site
-\item Set up primary sign-in mechanism for entire website
-\item Configured and deployed the database on AWS and set up database access and schema migration
+\item Built full functionality mockup for entire site using Gatsby, an extension of React
+\item Set up primary sign-in mechanism for entire website, allowing users the option to login using their Facebook or Gmail account
+\item Configured and deployed a database on AWS and set up database access and schema migration
 \end{tightemize}
 \sectionsep
 
@@ -252,8 +252,6 @@ Exposure to: C \textbullet{} Clojure \textbullet{} Matlab \textbullet{} Racket \
 Badminton \\
 Volunteering \\
 Bouldering \\
-\sectionsep
-References available upon request.
 \end{document}  \documentclass[]{article}
 \sectionsep
 
